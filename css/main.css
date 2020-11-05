@@ -1,0 +1,351 @@
+html
+{
+  scroll-behavior: smooth;
+  width: 100%;
+  background: linear-gradient(45deg, rgb(226, 163, 47), rgb(214, 20, 20));
+}
+body, *
+{
+  padding: 0;
+  margin: 0;
+}
+a {text-decoration: none;}
+.bg-img
+{
+  background-image: url("images/LAKSHYA2.png");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container
+{
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.topnav
+{
+  overflow: hidden;
+  background: linear-gradient(90deg, #f12701 50%, black 50%);
+}
+.topnav a
+{
+  float: left;
+  font-family: 'K2D', cursive;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.topnav a:not(.logo):hover
+{
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {background: #4CAF50;}
+
+.lakshyaBanner
+{
+  
+  width: 100%;
+}
+.aboutUs {width: 100%;}
+.aboutUs .leftText
+{
+  width: 60%;
+  float: left;
+}
+.aboutUs .leftText .leftTextHeading, .sessionsLiveHeld .sessionsHeadingTop
+{
+  background: linear-gradient(0deg, white, orange, yellow, pink, red);
+  padding: 5px 0;
+  animation: circle 2.5s ease-in-out infinite alternate;
+  width: 98%;
+  margin: 10px 1% 15px 1%;
+  box-shadow: 5px 5px 4px orange, 5px -5px 4px red, -5px 5px 4px pink, -5px -5px 4px yellow;
+}
+@keyframes circle
+{
+  0% {background: linear-gradient(0deg, white, orange, yellow, pink, red);}
+  12.5% {background: linear-gradient(45deg, white, orange, yellow, pink, red);}
+  25% {background: linear-gradient(90deg, white, orange, yellow, pink, red);}
+  37.5% {background: linear-gradient(135deg, white, orange, yellow, pink, red);}
+  50% {background: linear-gradient(180deg, white, orange, yellow, pink, red);}
+  62.5% {background: linear-gradient(225deg, white, orange, yellow, pink, red);}
+  75% {background: linear-gradient(270deg, white, orange, yellow, pink, red);}
+  87.5% {background: linear-gradient(315deg, white, orange, yellow, pink, red);}
+  100% {background: linear-gradient(360deg, white, orange, yellow, pink, red);}
+}
+.aboutUs .leftText .leftTextHeading h1, .sessionsLiveHeld .sessionsHeadingTop h1
+{
+  font-size: 50px;
+  font-family: 'Grenze', cursive;
+  background: -webkit-linear-gradient(#7703fc, #03adfc);
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0 5px;
+  margin: 0 5px;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow
+{
+  from {text-shadow: 0px 0px 2px #7703fc, 0px 0px 2px #7703fc, 0px 0px 2px #7703fc, 0px 0px 2px #7703fc;}
+  to {text-shadow: 0px 0px 2px #03adfc, 0px 0px 2px #03adfc, 0px 0px 2px #03adfc, 0px 0px 2px #03adfc;}
+}
+.aboutUs .leftText .leftTextBody {background: radial-gradient(#7703fc, #03adfc);}
+.aboutUs .leftText .leftTextBody p
+{
+  margin: 0 5px;
+  font-family: 'Grenze', cursive;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+.aboutUs .leftText .leftTextBody p:nth-child(1) {padding: 0 5px;}
+.aboutUs .leftText .leftTextBody p:nth-child(2) {padding: 0 10px;}
+.numbers
+{
+  width: 100%;
+  background: #f6f7f6;
+}
+.students, .instr
+{
+  float: left;
+  width: 33.334%;
+}
+.students h1.numberOfStuds, .sessions h1.numberOfSessions, .instr h1.numberOfInstrs
+{
+  color: #03adfc;
+  font-size: 50px;
+  font-family: 'K2D', cursive;
+  text-align: center;
+}
+.students p.studs, .sessions p.sessionsLive, .instr p.instrHead
+{
+  color: #7703fc;
+  font-size: 35px;
+  font-family: 'K2D', cursive;
+  padding: 5px;
+  text-align: center;
+}
+
+.row
+{
+  width: 50%;
+  float: left;
+  color: white;
+}
+.row1
+{
+  text-align: center;
+  font-family: 'Grenze', 'K2D', cursive;
+  font-size: 25px;
+  color:
+}
+.row2
+{
+  text-align: center;
+  font-family: 'K2D', cursive;
+  font-size: 15px;
+  padding: 50px 0;
+}
+.copy
+{
+  padding: 0 300px;
+  font-family: 'Grenze', 'K2D', cursive;
+  font-size: 25px;
+}
+.slideshow-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+.slideshow-container .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 100%;
+  float: left;
+  animation: animate-slideshow-slider 30s linear infinite;
+}
+@keyframes animate-slideshow-slider {
+  0% {
+    left: 0;
+  }
+  6.25% {
+    left: 0;
+  }
+  12.5% {
+    left: 0;
+  }
+  18.75% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  31.25% {
+    left: -100%;
+  }
+  37.5% {
+    left: -100%;
+  }
+  43.75% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  56.25% {
+    left: -200%;
+  }
+  62.5% {
+    left: -200%;
+  }
+  67.75% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  81.25% {
+    left: -300%;
+  }
+  87.5% {
+    left: -300%;
+  }
+  93.75% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+.slideshow-container .slider .slide {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.slideshow-container .slider .slide .caption {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  right: 60px;
+  padding: 5px 30px;
+  background-image: linear-gradient(
+    45deg,
+    rgba(33, 150, 243, 0.8) 50%,
+    rgba(35, 65, 151, 0.8) 50%
+  );
+  box-sizing: border-box;
+}
+.slideshow-container .slider .slide .caption h1 {
+  font-size: 50px;
+  color: white;
+  margin: 5px;
+}
+.slideshow-container .slider .slide .caption p {
+  font-size: 30px;
+  color: white;
+  margin: 5px;
+}
+.slideshow-container .slider .slide .caption p span {
+  float: right;
+  display: block;
+  font-size: 32px;
+}
+.slideshow-container .slider .slide.slide1 {
+  background: url("images/bg_1.png");
+  background-size: cover;
+  background-position: center;
+}
+.slideshow-container .slider .slide.slide2 {
+  background: url("images/bg_2.webp");
+  background-size: cover;
+  background-position: center;
+}
+.slideshow-container .slider .slide.slide3 {
+  background: url("images/image_1.webp");
+  background-size: cover;
+  background-position: center;
+}
+.slideshow-container .slider .slide.slide4 {
+  background: url("images/image_2.webp");
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 968px) {
+  .slideshow-container {
+    display: none;
+  }
+}
+.personalInfo
+{
+  width: 100%;
+  border: 2px solid black;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.person {background: radial-gradient(#7703fc, #03adfc);}
+.person img {float: left;width: 40%;}
+.person .personText {width: 60%; float: left;}
+.person .personText h1
+{
+  color: red;
+  font-family: 'K2D', 'Grenze', cursive;
+  font-size: 50px;
+  padding: 20px;
+}
+.person .personText p
+{
+  font-family: 'K2D', 'Grenze', cursive;
+  font-size: 25px;
+  padding: 20px;
+}
+.contactUs
+{
+  width: 100%;
+  background: red;
+}
+.contactUs h1
+{
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Grenze', cursive;
+  font-style: italic;
+  color: #7703fc;
+}
+.contactUs form label
+{
+  color: white;
+  font-size: 25px;
+  font-family: 'K2D', cursive;
+  padding: 10px;
+}
+.contactUs form input
+{
+  width: 50%;
+  font-size: 25px;
+  font-family: 'Grenze', cursive;
+  border: 5px solid #03adfc;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 10px;
+}
+footer {
+  background: rgb(22, 21, 21);
+  width:100%;
+  padding : 3px;
+  color: rgba(247, 36, 36, 0.945);
+  text-align:center;
+}
