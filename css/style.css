@@ -3,8 +3,8 @@
 }
 body{
     background: linear-gradient(273deg, rgb(253, 91, 42),rgb(160, 7, 7));
-    color: rgba(105, 46, 46, 0.822);
-    margin: 0% 4% 1% 4% !important;
+    color: #692e2ed2;
+    margin: 0% 0% 0.2% 0% !important;
 }
 article{
     background:linear-gradient(-155deg, rgba(3, 68, 68, 0.514),rgba(104, 34, 34, 0.445),rgba(109, 91, 57, 0.336),rgba(94, 94, 18, 0.411),rgba(24, 92, 24, 0.445),rgba(24, 24, 53, 0.548),rgba(68, 45, 85, 0.534),rgba(63, 9, 63, 0.384));
@@ -19,13 +19,10 @@ article{
 div#top{
     float: right;
 }
-header nav div{
-    margin: 2% 0px 0px 2%;
-    
-}
+
 header nav div li{
-    margin: 1% 0px 0px 1%;
-    padding: 4% 4% 4% 4%;
+    margin: 1% 0px 0px 2%;
+    padding: 2% 2% 2% 2%;
     text-align: center;
     
     align-items: center; 
@@ -33,7 +30,8 @@ header nav div li{
 header nav div li:hover{
 
     text-align: center;
-    background-color: rgb(112, 110, 110) !important;
+    background-color: rgba(182, 172, 172, 0.945) !important;
+    color: #000000 !important;
 }
 article div ul li span{
      float: right;
