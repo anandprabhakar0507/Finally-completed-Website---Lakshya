@@ -5,8 +5,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/main.css">
     <script src="js/script.js"></script>
-    <link rel="shortcut icon" href="images/L3.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
 
@@ -15,26 +16,29 @@
 </head>
 <body id="body"></body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondry">
-          <a class="navbar-brand" href="#"><img src="images/L3.png" width="40px"></a>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-
-                <li class="nav-item active text-white bg-success">
+                <li>
+                  <li>
+                    <a class="navbar-brand" href="index.html">Lakshya</a>
+                  </li>
+                </li>
+                <li class="nav-item active bg-success">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item active text-white bg-success">
+                <li class="nav-item active bg-success">
                   <a class="nav-link" href="#about">Testimonial</a>
                 </li>
-                <li class="nav-item active text-white bg-success">
+                <li class="nav-item active bg-success">
                   <a class="nav-link" href="about.html">About</a>
                 </li>
                 
-                <li class="nav-item active text-white bg-success">
+                <li class="nav-item active bg-success">
                   <a class="nav-link" href="join.html">Join</a>
                 </li>
                 
@@ -50,15 +54,19 @@
 
     <article id="about" style="align:center;">
       <u ><h1 class="p-6 mb-2 bg-secondry text-white">Our Testimonials</h1></u>
-        <img width="100%" src="images/LAKSHYA2.png">
+        <div style="display:flex;">
+          <img width="25%" src="images/lakshya.png">
+          <img width="75%" src="images/lakshya2.png">
+        </div>
         
         <div align="center" class="testo p-1 mb-2 bg-dark text-white">
-               <li style="float:left;"> <img style="border-radius: 50%;border: 2px solid gray;" src="images/im1.jpg" alt="im1"></li>
+          <ul>
+               <li style="float:left;"> <img style="border-radius: 50%;border: 2px solid gray;font-family: cursive;" src="images/im1.jpg" alt="im1"></li>
                
                <br>
-               <li>
-                "The Team Lakshya did all the events very professionally..<br><mark>I am very curious about Future events</mark>.
-                as they come every time with the new topics..and a new motivation."
+               <li >
+                <mark style="font-family: cursive;">"The Team Lakshya did all the events very professionally..<br>I am very curious about Future events.
+                  as they come every time with the new topics..and a new motivation."</mark>
                </li>
                <li><span class="text-primary">- Albert Dera</span></li>
                <br>
@@ -126,9 +134,24 @@
        <hr>
        
     </article>
-    
+    <div class="footer">
+      
+      <div class="row row1">
+        <div align="center" ><h1>Subscribe</h1></div>
+        <form>
+          <input type="email" placeholder="Email Address" style="width: 50%;border: 2px solid black;border-radius: 25px;height: 20px;font-size: 20px;font-family: 'Grenze', 'K2D', cursive;padding: 10px;">
+          <input type="submit" value="Subscribe" style="border: 2px solid black;font-size: 20px;font-family: 'Grenze', 'K2D', cursive;padding: 5px 20px;background: #03adfc;">
+        </form>
+      </div>
+      <div width="100%" class="row row2">
+        <div class="contact">
+          <h2>Phone Number: <span>+91-94XXXXXXXX</span></h2>
+          <h2>Email address: <span>xyz@email.com</span></h2>
+        </div>
+      </div>
+      <footer>&copy;Copyright Lakshya. All Rights Reserved</footer>
+    </div>
    <br><br>
-   <footer >This website is created with educational purpose and this project is developed by Team Lakshya &copy; as a part of web designing project</footer>
    <script
               src="https://code.jquery.com/jquery-3.3.1.min.js"
               integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
