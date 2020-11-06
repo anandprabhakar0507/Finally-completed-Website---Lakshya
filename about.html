@@ -8,6 +8,7 @@
         <script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js"></script>
         <script src="js/script.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -16,19 +17,44 @@
         <title>Lakshya</title>
     </head>
     <body>
-        <div class="bg-img">
-          <div class="container">
-            <div class="topnav">
-              <a class="navbar-brand" href="#"><img src="images/lakshya.png" width="40px"></a>
-              <a href="index.html">Home</a>
-              <a href="testimonial.html">Testimonials</a>
-              <a href="about.html" class="active">About</a>
-              <a href="join.html">Join</a>
-            </div>
-            <img width="100%" src="images/Lakshya3.png" alt="Logo" class="bannerOnNavBar">
-          </div>
+      <nav style=" margin: 0% 0% 0% 2%;padding: 1% 1% 1% 0%;" class="navbar navbar-expand-lg navbar-dark">
+          
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+
+            <li style="padding: 2% 2% 2% 2%;margin: 1%;">
+              <a class="navbar-brand" href="index.html">Lakshya</a>
+            </li>
+
+            <li class="nav-item active  bg-success" style="padding: 1% 1% 1% 1%; margin: 1%; text-align:center;">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active  bg-success" style=" padding: 1% 1% 1% 1%; margin: 1%;text-align:center;">
+              <a class="nav-link" href="testimonial.html">Testimonial</a>
+            </li>
+            <li class="nav-item active  bg-success" style="padding: 1% 1% 1% 1%;margin: 1%;text-align:center;">
+              <a class="nav-link" href="#lakshya">About</a>
+            </li>
+            
+            <li class="nav-item active  bg-success" style="padding: 1% 1% 1% 1%;margin: 1%; text-align:center;">
+              <a class="nav-link" href="join.html">Join</a>
+            </li>
+            
+            
+          </ul>
+          
         </div>
-        <br><br><br><br>
+      </nav>
+      </nav>
+      <div style="display:flex; padding:2% 2% 2% 2%;" id="lakshya">
+        <img width="25%" src="images/lakshya.png">
+        <img width="75%" src="images/lakshya2.png">
+      </div>
+        <br>
         <div class="personaInfo">
             <div class="person clearfix">
                 <img src="images/rinkle.jpg" alt="Rinkle">
@@ -99,5 +125,11 @@
           </div>
           <footer>&copy;Copyright Lakshya. All Rights Reserved</footer>
         </div>
+
+        <script
+              src="https://code.jquery.com/jquery-3.3.1.min.js"
+              integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+               <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
