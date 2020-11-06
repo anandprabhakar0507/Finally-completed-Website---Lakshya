@@ -137,20 +137,22 @@ a {text-decoration: none;}
   width: 50%;
   float: left;
   color: white;
+  display: flex;
 }
 .row1
 {
   text-align: center;
   font-family: 'Grenze', 'K2D', cursive;
-  font-size: 25px;
-  color:
+  font-size: 0px;
+  margin-left:1%;
 }
 .row2
 {
   text-align: center;
   font-family: 'K2D', cursive;
   font-size: 15px;
-  padding: 50px 0;
+  padding: 0px 0;
+  
 }
 .copy
 {
@@ -295,7 +297,7 @@ a {text-decoration: none;}
   clear: both;
   display: table;
 }
-.person {background: radial-gradient(#7703fc, #03adfc);}
+.person {background: linear-gradient( #00aeff,#7700ff);}
 .person img {float: left;width: 40%;}
 .person .personText {width: 60%; float: left;}
 .person .personText h1
@@ -339,8 +341,8 @@ a {text-decoration: none;}
   font-family: 'Grenze', cursive;
   border: 5px solid #03adfc;
   border-radius: 5px;
-  padding: 2px;
-  margin: 10px;
+  padding: 0px;
+  margin: 0px;
 }
 footer {
   background: rgb(31, 4, 4);
