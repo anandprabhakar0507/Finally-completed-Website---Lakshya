@@ -323,8 +323,9 @@ a {text-decoration: none;}
 }
 .contactUs h1
 {
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
+  width: 40%;
   text-transform: uppercase;
   font-family: 'Grenze', cursive;
   font-style: italic;
@@ -333,6 +334,7 @@ a {text-decoration: none;}
 .contactUs form label
 {
   color: white;
+  width: 50%;
   font-size: 25px;
   font-family: 'K2D', cursive;
   padding: 10px;
