@@ -249,37 +249,44 @@ a {text-decoration: none;}
 }
 .slideshow-container .slider .slide .caption h1 {
   font-size: 50px;
+  width:100%;
   color: white;
   margin: 5px;
 }
 .slideshow-container .slider .slide .caption p {
   font-size: 30px;
+  width:100%;
   color: white;
   margin: 5px;
 }
 .slideshow-container .slider .slide .caption p span {
   float: right;
+  width:100%;
   display: block;
   font-size: 32px;
 }
 .slideshow-container .slider .slide.slide1 {
   background: url("../images/bg_1.png") !important;
   background-size: cover !important;
+  width:100%;
   background-position: center !important; 
 }
 .slideshow-container .slider .slide.slide2 {
   background: url("../images/bg_2.webp");
   background-size: cover;
+  width:100%;
   background-position: center;
 }
 .slideshow-container .slider .slide.slide3 {
   background: url("../images/image_1.webp");
   background-size: cover;
+  width:100%;
   background-position: center;
 }
 .slideshow-container .slider .slide.slide4 {
   background: url("../images/image_2.webp");
   background-size: cover;
+  width:100%;
   background-position: center;
 }
 @media screen and (max-width: 968px) {
@@ -297,7 +304,7 @@ a {text-decoration: none;}
   clear: both;
   display: table;
 }
-.person {background: linear-gradient( #00aeff,#7700ff);}
+.person {background:  #00aeff;}
 .person img {float: left;width: 40%;}
 .person .personText {width: 60%; float: left;}
 .person .personText h1
