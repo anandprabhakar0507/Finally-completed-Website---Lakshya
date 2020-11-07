@@ -134,25 +134,21 @@ a {text-decoration: none;}
 
 .row
 {
-  width: 50%;
-  float: left;
   color: white;
   display: flex;
 }
 .row1
 {
+  width:50%;
   text-align: center;
   font-family: 'Grenze', 'K2D', cursive;
-  font-size: 0px;
   margin-left:1%;
 }
 .row2
 {
+  width:50%;
+  margin-left: 1%;
   text-align: center;
-  font-family: 'K2D', cursive;
-  font-size: 15px;
-  padding: 0px 0;
-  
 }
 .copy
 {
@@ -297,7 +293,7 @@ a {text-decoration: none;}
   clear: both;
   display: table;
 }
-.person {background: #00aeff;}
+.person {background: linear-gradient( #00aeff,#7700ff);}
 .person img {float: left;width: 40%;}
 .person .personText {width: 60%; float: left;}
 .person .personText h1
@@ -330,24 +326,24 @@ a {text-decoration: none;}
 .contactUs form label
 {
   color: white;
-  font-size: 25px;
   font-family: 'K2D', cursive;
   padding: 10px;
 }
 .contactUs form input
 {
   width: 50%;
-  font-size: 25px;
   font-family: 'Grenze', cursive;
   border: 5px solid #03adfc;
   border-radius: 5px;
   padding: 0px;
   margin: 0px;
 }
-footer {
+
+.footer {
   background: rgb(31, 4, 4);
   width:100%;
-  
+  padding-top: 2%;
+  margin-top: 0.1%;
   color: rgba(247, 103, 36, 0.945);
   text-align:center;
 }
