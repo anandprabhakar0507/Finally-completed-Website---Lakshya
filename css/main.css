@@ -248,19 +248,16 @@ a {text-decoration: none;}
 }
 .slideshow-container .slider .slide .caption h1 {
   font-size: 50px;
-  width:100%;
   color: white;
   margin: 5px;
 }
 .slideshow-container .slider .slide .caption p {
   font-size: 30px;
-  width:100%;
   color: white;
   margin: 5px;
 }
 .slideshow-container .slider .slide .caption p span {
   float: right;
-  width:100%;
   display: block;
   font-size: 32px;
 }
