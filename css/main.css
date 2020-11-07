@@ -121,6 +121,7 @@ a {text-decoration: none;}
   color: #03adfc;
   font-size: 50px;
   font-family: 'K2D', cursive;
+  width:33%;
   text-align: center;
 }
 .students p.studs, .sessions p.sessionsLive, .instr p.instrHead
