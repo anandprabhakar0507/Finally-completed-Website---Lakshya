@@ -121,7 +121,6 @@ a {text-decoration: none;}
   color: #03adfc;
   font-size: 50px;
   font-family: 'K2D', cursive;
-  width:33%;
   text-align: center;
 }
 .students p.studs, .sessions p.sessionsLive, .instr p.instrHead
@@ -144,12 +143,14 @@ a {text-decoration: none;}
 {
   text-align: center;
   font-family: 'Grenze', 'K2D', cursive;
+  font-size: 0px;
   margin-left:1%;
 }
 .row2
 {
   text-align: center;
   font-family: 'K2D', cursive;
+  font-size: 15px;
   padding: 0px 0;
   
 }
@@ -264,25 +265,21 @@ a {text-decoration: none;}
 .slideshow-container .slider .slide.slide1 {
   background: url("../images/bg_1.png") !important;
   background-size: cover !important;
-  width:100%;
   background-position: center !important; 
 }
 .slideshow-container .slider .slide.slide2 {
   background: url("../images/bg_2.webp");
   background-size: cover;
-  width:100%;
   background-position: center;
 }
 .slideshow-container .slider .slide.slide3 {
   background: url("../images/image_1.webp");
   background-size: cover;
-  width:100%;
   background-position: center;
 }
 .slideshow-container .slider .slide.slide4 {
   background: url("../images/image_2.webp");
   background-size: cover;
-  width:100%;
   background-position: center;
 }
 @media screen and (max-width: 968px) {
@@ -300,7 +297,7 @@ a {text-decoration: none;}
   clear: both;
   display: table;
 }
-.person {background:  #00aeff;}
+.person {background: #00aeff;}
 .person img {float: left;width: 40%;}
 .person .personText {width: 60%; float: left;}
 .person .personText h1
@@ -323,9 +320,8 @@ a {text-decoration: none;}
 }
 .contactUs h1
 {
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
-  width: 40%;
   text-transform: uppercase;
   font-family: 'Grenze', cursive;
   font-style: italic;
@@ -334,7 +330,6 @@ a {text-decoration: none;}
 .contactUs form label
 {
   color: white;
-  width: 50%;
   font-size: 25px;
   font-family: 'K2D', cursive;
   padding: 10px;
