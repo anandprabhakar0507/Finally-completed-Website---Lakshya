@@ -10,5 +10,6 @@ Here are the details of all team members
 #### RINKLE GARG - CHANDIGARH UNIVERSITY
 
 
-This project is hosted at [link1](https://anandprabhakar0507.github.io/Finally-completed-Website---Lakshya/)
+This project is hosted at [link1](http://lakshya.surge.sh/)
                            [link2](https://git.io/JTpRg)
+                           [Link3](https://anandprabhakar0507.github.io/Finally-completed-Website---Lakshya/)
