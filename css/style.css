@@ -11,9 +11,9 @@ article{
     background:linear-gradient(-155deg, rgba(3, 68, 68, 0.514),rgba(104, 34, 34, 0.445),rgba(109, 91, 57, 0.336),rgba(94, 94, 18, 0.411),rgba(24, 92, 24, 0.445),rgba(24, 24, 53, 0.548),rgba(68, 45, 85, 0.534),rgba(63, 9, 63, 0.384));
     background-repeat:no-repeat;
     background-size: cover;
-    padding: 2% 0% 5% 2%;
+    padding: 2% 0% 2% 0%;
     color: rgba(252, 255, 68, 0.788);
-    z-index: 5;
+    
 }
 
 div#top{
@@ -114,5 +114,5 @@ footer a{text-decoration: none;
 }
 
 .testo{
-    margin: 2% 2% 2% 2%;
+    margin: 2% 2% 2% 2% !important;
 }
